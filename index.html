@@ -1,13 +1,17 @@
 <script>  
-  var form1 = "https://docs.google.com/forms/d/e/1FAIpQLSfYIdNACLLXpCHIJhOfhyXVMPun25xZrfOrmWWFWFaYrEestg/viewform?usp=sf_link";
-  var form2 = "https://docs.google.com/forms/d/e/1FAIpQLSfmcphHwR56TeCs_0P3Tg-0YsQsfBUZ-Bpfzoq5j-zXPS86xw/viewform?usp=sf_link";
+  var form1 = "https://docs.google.com/forms/d/e/1FAIpQLSfyTR4u4H3WfUZ4K2DCg0xsYd9OlmCUVkxCJt__2fZgc1TzYg/viewform?usp=sf_link";
+  var form2 = "https://docs.google.com/forms/d/e/1FAIpQLSfYIdNACLLXpCHIJhOfhyXVMPun25xZrfOrmWWFWFaYrEestg/viewform?usp=sf_link";
+  var form3 = "https://docs.google.com/forms/d/e/1FAIpQLSfmcphHwR56TeCs_0P3Tg-0YsQsfBUZ-Bpfzoq5j-zXPS86xw/viewform?usp=sf_link";
   
-  var num = Math.floor(Math.random() * 2);
+  var num = Math.floor(Math.random() * 3);
   
   if(num == 0){
     window.location = form1;
   }
   if(num == 1){
     window.location = form2;
+  }
+  if(num == 2){
+    window.location = form3;
   }
 </script>
